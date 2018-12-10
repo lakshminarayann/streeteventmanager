@@ -1,0 +1,31 @@
+.game-container{
+  display: flex;
+  justify-items: stretch;
+  flex-direction: column;
+}
+.game-card {
+  max-height: 30px;
+  margin-bottom: 15px;
+}
+.mat-tab-group{
+  height: 100%;
+}
+.tab-content{
+  margin: 10px ;
+}
+.go-ahead{
+  position: fixed;
+  right: 30px;
+}
+.subtitle{
+  display: flex;
+  min-width: 250px;
+  justify-items: stretch;
+}
+
+.subtitle-left{
+ flex-grow: 9;
+}
+.subtitle-right{
+  flex-grow: 1;
+}
